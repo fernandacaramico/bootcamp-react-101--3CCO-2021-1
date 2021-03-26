@@ -2,7 +2,7 @@
 
 Olá, Aluno/a! Tudo bem?
 
-Neste arquivo contém o "passo a passo" de como evoluímos
+Este arquivo contém o "passo a passo" de como evoluímos
 saindo do JS indo a JSX, criando nosso primeiro componente React, com props e estado!
 
 Comente e descomente cada um dos blocos desta aula comentados com //
