@@ -39,13 +39,13 @@ Bloco 02 - parte 1 - Agora, em um componente React com JSX!
 
 // var container = document.getElementById("app");
 
-// function Titulos() {
-//     return (
-//         <h1>Este título foi feito em React com JSX</h1>
-//     );
-// }
+function Titulos() {
+    return (
+        <h1>Este título foi feito em React com JSX</h1>
+    );
+}
 
-// ReactDOM.render(Titulos(), container);
+ ReactDOM.render(Titulos(), container);
 
 /*
 ----------------------------------------------------------------------
