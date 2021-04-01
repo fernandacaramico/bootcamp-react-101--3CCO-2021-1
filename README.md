@@ -4,7 +4,7 @@ Repositório com os códigos desenvolvidos em aula de Bootcamp de React com a tu
 ## :zap: Tutorial de Introdução ao React 
 Acesse o arquivo **index.js** para o _tutorial_ da nossa primeira aula de React.
 
-## :skateboard: Componentizando
+## 🚲 Componentizando
 _Nosso projeto **Music Box** já começou a tomar forma em [/music-box](https://github.com/fernandacaramico/bootcamp-react-101--3CCO-2021-1/tree/main/music-box)!_
 
 ![Protótipo Website](https://github.com/fernandacaramico/bootcamp-react-101--3CCO-2021-1/blob/main/telas.png?raw=true)
