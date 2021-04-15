@@ -1,9 +1,30 @@
 import React from 'react';
+import CardMusica from '../components/CardMusica';
+import NavBar from '../components/NavBar';
 
 function MinhasMusicas() {
     return (
         <>
-        <h1>AMIGO, AGORA ESTOU AQUI! :)</h1>
+            <NavBar />
+            <div className="container">
+                <div className="filter">
+                    <button className="btn-green right">Adicionar</button>
+                </div>
+            </div>
+
+            <div className="container">
+                <div className="music-boxes">
+
+                <CardMusica nome="Assalto ao Trap" genero="Trap" ano="2020"/>
+
+                <CardMusica nome="Hatsune Miku" genero="jpop" ano="2020" />
+
+                <CardMusica nome="Melhor eu ir" genero="Pagode" ano="2015" />
+
+                <CardMusica nome="Na sua estante" genero="Emoxinho :3" ano="2000"/>
+
+                </div>
+            </div>
         </>
     );
 }
