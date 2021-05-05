@@ -1,5 +1,4 @@
 import React from 'react';
-/* adicionar link e button aqui! */
 import CardMusica from '../components/CardMusica';
 import NavBar from '../components/NavBar';
 
@@ -9,9 +8,9 @@ function MinhasMusicas() {
             <NavBar />
             <div className="container">
                 <div className="filter">
-                    {/* adicionar link e button aqui! */}
+                    {/* adicionar button com filho, lado e destino aqui! */}
                         <button className="btn-green right">Adicionar</button>
-                    {/* adicionar link e button aqui! */}
+                    {/* adicionar button com filho, lado e destino aqui! */}
                 </div>
             </div>
 

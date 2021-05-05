@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import NavBar from '../components/NavBar';
 import Button from '../components/Button';
 import addMusic from '../assets/images/add-music-img.png';
@@ -7,7 +6,6 @@ import addMusic from '../assets/images/add-music-img.png';
 function AddMusica() {
     return (
         <>
-
             <NavBar />
             <div className="container">
                 <div className="add-music">
@@ -29,9 +27,7 @@ function AddMusica() {
                             <input type="text" />
                         </div>
                         <div>
-                            <Link to="/minhas-musicas">
-                                <Button lado="left">Enviar</Button>
-                            </Link>
+                            <Button lado="left" destino="/minhas-musicas">Enviar</Button>
                         </div>
                     </form>
                     <img src={addMusic} alt="" />

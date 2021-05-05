@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Button from '../components/Button';
 import imagem from '../assets/images/index-img.png';
 
@@ -13,9 +12,7 @@ function HomePage() {
                         <h3>Contribua e fique por dentro das novidades  </h3>
                     </div>
                     <div className="img-index"></div>
-                    <Link to="/minhas-musicas">
-                        <Button lado="left">Conhecer agora</Button>
-                    </Link>
+                        <Button lado="left" destino="/minhas-musicas">Conhecer agora</Button>
                 </div>
                 <img src={imagem} alt="" className="index-img" />
             </div>
