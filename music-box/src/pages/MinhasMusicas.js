@@ -80,7 +80,9 @@ function MinhasMusicas() {
                     { // Adicionando Javascript "no meio" do html, precisamos abrir chaves.
                         // map é como um "for each", queremos que algo aconteça com todos os elementos da array:
                         musicas.map((musica) => (
-                            <CardMusica nome={musica.nome} genero={musica.genero} ano={musica.ano} />
+                            // código adicionado para delete: id
+                            // código adicionado para imagens de fundo: imgFundo
+                            <CardMusica imgFundo={musica.url} id={musica.id} nome={musica.nome} genero={musica.genero} ano={musica.ano} />
                         ))
                     }
 
