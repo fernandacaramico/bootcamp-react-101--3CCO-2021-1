@@ -15,7 +15,8 @@ function CardMusica(props) {
     }
 
     // código adicionado para imagens de fundo: const estiloCapaMusica 
-    // Operador ternário para que, 
+    // Operador ternário para que, quando url tiver valor "", tenha a imagem padrão.
+    // Quando diferente de "", tenha a imagem que vier.
     const estiloCapaMusica = {
         backgroundImage: `url(${props.imgFundo == "" ? imgCapaPadrao  : props.imgFundo})`
     }
