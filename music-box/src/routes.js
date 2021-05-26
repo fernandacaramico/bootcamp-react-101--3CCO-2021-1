@@ -4,6 +4,7 @@ import AddMusica from './pages/AddMusica';
 import Inicial from './pages/Inicial';
 import MinhasMusicas from './pages/MinhasMusicas';
 import NotFound from './pages/NotFound';
+import EditMusic from './pages/EditMusic'; //<-- editMusic aqui
 
 function Routes() {
     return (
@@ -12,6 +13,7 @@ function Routes() {
                 <Route exact path="/" component={Inicial}/>
                 <Route exact path="/add-musica" component={AddMusica}/>
                 <Route exact path="/minhas-musicas" component={MinhasMusicas}/>
+                <Route exact path={`/edit/:id`} component={EditMusic}/> {/*<-- editMusic aqui*/}
                 <Route exact path="*" component={NotFound}/>
             </Switch>
         </Router>
