@@ -10,7 +10,10 @@ function CardMusica(props) {
     function deletar() {
         api.delete(`/${props.id}`).then(resposta =>{
             console.log("deletando", resposta);
-            window.location.reload();
+            // "Pegando" resposta da api, abaixo (alterne entre linhas A e B para ver a resposta ou ser redirecionado)
+            // Como visto na resposta anterior, a mockAPI traz o texto da resposta em um statusText.
+            //console.log("resposta da api:", resposta.statusText); // LINHA A
+            window.location.reload(); // LINHA B
         })
     }
 
