@@ -3,6 +3,7 @@ import editIcon from '../assets/images/edit-icon.png';
 import deleteIcon from '../assets/images/delete-icon.png';
 import starSolidIcon from '../assets/images/star-solid.png';
 import api from '../api';
+import { Link } from 'react-router-dom';
 import imgCapaPadrao from '../assets/images/capa.png';
 
 function CardMusica(props) {
@@ -30,7 +31,11 @@ function CardMusica(props) {
                 <div className="img-music" style={estiloCapaMusica}></div>
                 <div className="music-data">
                     <div className="icons">
-                        <img src={editIcon} alt="" className="edit" />
+
+                        <Link to={`/edit/${props.id}`}>
+                            <img src={editIcon} alt="" className="edit" />
+                        </Link>
+
                         {/* código adicionado para delete: onclick*/}
                         <img src={deleteIcon} alt="" className="delete" onClick={deletar} />
                         <img src={starSolidIcon} alt="" className="stars" />
